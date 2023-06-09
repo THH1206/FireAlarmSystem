@@ -1,0 +1,27 @@
+
+.anh {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+  margin-bottom: 0.5rem;
+}
+.condition {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+.card {
+  position: relative;
+  background-color: var(--color-grey-primary);
+  margin: 0 auto;
+  flex: 1 0 25rem;
+  max-width: 30rem;
+  max-height: 50rem;
+  transform: rotateY('-0.5rem');
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+.title {
+  text-align: center;
+}
